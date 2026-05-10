@@ -52,35 +52,25 @@ box-shadow: 0 0 20px rgb(19, 15, 15) ;
 }
 
 #na{
-    font-size:300px;
-    padding-left: 200px;
+    font-size: clamp(50px, 10vw, 200px);
+    padding-left: 5%;
     font-family: sans-serif;
     position: absolute;
     top: 30%;
-
 }
 
-
 #para{
-font-size:65px;
-padding-left: 200px;
-
-position: absolute;
+    font-size: clamp(16px, 3vw, 65px);
+    padding-left: 5%;
+    position: absolute;
     top: 50%;
-
-
-
 }
 
 #date{
-font-size: 60px;
-padding-left: 200px;
-padding-top: 68px;
-
-
-position: absolute;
+    font-size: clamp(16px, 3vw, 60px);
+    padding-left: 5%;
+    position: absolute;
     top: 69%;
-
 }
 
 h6{
