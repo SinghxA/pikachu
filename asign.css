@@ -1,4 +1,4 @@
-* {
+/* * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -110,4 +110,101 @@ background-color: rgb(126, 121, 121);
 
 #three{
 background-color: rgb(126, 121, 121);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main {
+    height: 93vh;
+    width: 96%;
+    border-radius: 39px;
+    background: linear-gradient(to right, #FFCB05 60%, #F6EBCF 40%);
+    position: relative;
+    left: 1.8%;
+    top: 2.9%;
+    box-shadow: 0 0 20px rgb(19, 15, 15);
+    overflow: hidden;
+}
+
+#lo {
+    padding: 30px;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    height: 10%;
+}
+
+#m {
+    height: 80%;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+
+#menu {
+    position: absolute;
+    right: 1%;
+    top: 2%;
+    height: 60px;
+}
+
+h6 {
+    font-size: 1.5vw;
+    padding-left: 5%;
+    position: absolute;
+    top: 25%;
+}
+
+#na {
+    font-size: 8vw;
+    padding-left: 5%;
+    font-family: sans-serif;
+    position: absolute;
+    top: 32%;
+}
+
+#para {
+    font-size: 1.4vw;
+    padding-left: 5%;
+    position: absolute;
+    top: 52%;
+    width: 50%;
+}
+
+#date {
+    font-size: 1.4vw;
+    padding-left: 5%;
+    position: absolute;
+    top: 78%;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 92%;
+    top: 42%;
+    margin: 5px 0;
+}
+
+#two {
+    background-color: rgb(126, 121, 121);
+    top: 45%;
+}
+
+#three {
+    background-color: rgb(126, 121, 121);
+    top: 48%;
 }
