@@ -1,0 +1,123 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html ,
+body {
+height: 100%;
+width: 100%;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+#main{
+   height: 93%;
+   width: 96%;
+    border-radius: 39px;
+   background: linear-gradient(
+  to right,
+ #FFCB05,  #FFCC00 60%,
+  #F6EBCF 40%
+);
+
+position: relative;
+left: 1.8%;
+top: 2.9%;
+
+box-shadow: 0 0 20px rgb(19, 15, 15) ;
+
+}
+
+#m{
+     height: 96%;
+     margin-left: 7.3%;
+    position: absolute;
+    right: 14%;
+
+}
+
+#lo{
+  padding: 30px 30px;
+
+  position: absolute;
+  top: 2%;
+  left: 1%;
+
+  height: 10%;
+ 
+
+}
+
+#na{
+    font-size:300px;
+    padding-left: 200px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 30%;
+
+}
+
+
+#para{
+font-size:65px;
+padding-left: 200px;
+
+position: absolute;
+    top: 50%;
+
+
+
+}
+
+#date{
+font-size: 60px;
+padding-left: 200px;
+padding-top: 68px;
+
+
+position: absolute;
+    top: 69%;
+
+}
+
+h6{
+    font-size: 39px;
+    padding-left: 200px;
+
+
+position: absolute;
+    top: 25%;
+
+
+
+}
+
+#menu{
+    position: absolute;
+    right: 1%;
+   top: 2%;
+    height: 110px;
+}
+
+.dot{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    margin: 210px;
+    border-radius: 50%;
+
+    position: relative;
+   left: 92%;
+   top: 42%;
+}
+
+#two{
+background-color: rgb(126, 121, 121);
+}
+
+#three{
+background-color: rgb(126, 121, 121);
+}
