@@ -137,11 +137,11 @@ html, body {
 }
 
 #lo {
-    padding: 30px;
     position: absolute;
     top: 2%;
     left: 1%;
-    height: 10%;
+    height: clamp(40px, 8%, 120px);
+    width: auto;
 }
 
 #m {
